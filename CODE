@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+double far, cel;
+cout <<"Dame la temperatura en Fahrenheit:"<< endl;
+cin >> far;
+cel = 5 * (far-32)/9;
+cout <<"La temperatura en Celcius es:"<<endl;
+cout <<cel << endl;
+
+if (cel < 100)
+{
+cout <<"El agua no va a hervir"<< endl;
+}
+if (cel>100)
+{
+cout<<"El agua hierve"<< endl;
+}
+if (cel == 100)
+{
+cout<< "El agua hierve a este punto"<< endl;
+}
+return 0;
+}
